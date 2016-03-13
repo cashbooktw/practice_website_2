@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Rubik+One); /* Rubik one font */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700); /* Montserrat font */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+
+*{
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(28, 29, 32);
+  color: rgb(102, 102, 103);
+  font-family: "Open sans", sans-serif;
+}
+
+header{
+  padding: 30px 104.5px;
+  margin: 0 auto;
+  height: 85px;
+}
+header img{
+  float:left;
+}
+header .menu{
+  float: right;
+}
+header .menu .hamburger{
+  float: right;
+}
+header .menu .menu-text{
+  float: left;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.hamburger{
+  background: none;
+  line-height: 23px;
+  padding: 0px 15px 0px 15px;
+  color: rgb(102, 102, 103);
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.slider-wrapper{
+  box-shadow: 0px 0px 50px rgba(0,0,0,.5);
+  height: 600px;
+  width: 1299px;
+  margin: 0 auto;
+}
+.slider{
+  height: 319px;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-top: 30px;
+}
+.slide:before{
+  content: "+";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: "Rubik One", sans-serif;
+  font-size: 350px;
+  color: rgb(63, 80, 165);
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+.slide {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+.small-slide-title{
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+.large-slide-title{
+  font-size: 60px;
+  font-family: "Rubik One", sans-serif;
+  line-height: 60px;
+}
+.slide-content{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.slide button{
+  margin-top: 30px;
+  font-size: 14px;
+  width: 140px;
+}
+
+.who_sec-wrapper{
+  height: 360px;
+  width: 1349px;
+  margin: 150px auto;
+}
