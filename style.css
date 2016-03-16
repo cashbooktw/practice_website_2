@@ -155,15 +155,16 @@ header .menu .menu-text{
 .why_sec-wrapper{
   width: 1299px;
   height: 494px;
-  background-color: black;
+  background-color: rgb(17, 18 ,19);
   margin: 0 auto;
 }
 .why-title{
   width: 650px;
-  height: 134px;
+  height: 234px;
   text-align: center;
   margin: 0 auto;
   position: relative;
+  padding-bottom: 100px;
 }
 .why-plus{
   font-family: "Montserrat", sans-serif;
@@ -184,9 +185,6 @@ header .menu .menu-text{
   transform: translateY(-50%);
 }
 .split-line{
-
-}
-.split-line hr{
   border: none;
   width: 70px;
   height: 1px;
@@ -194,6 +192,50 @@ header .menu .menu-text{
   margin: 0 auto;
   position: absolute;
   left: 50%;
-  top: 60px;
   transform: translateX(-50%);
+}
+.why-title div hr{
+  top: 60px;
+}
+.why-title-content{
+  margin-top: 10px;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+}
+.why-123{
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+  /*align-content: space-around;*/
+  align-content: stretch;
+  flex-wrap:wrap;
+  width: 1140px;
+  height: 140px;/*360*/
+  margin: 0 auto;
+}
+.why-123 > div{
+  width: 380px;
+  height: 63px;
+  text-align: center;
+}
+.why-1{
+  position: relative;
+}
+.why-1 img{
+  width: 63px;
+}
+.why-1-title{
+  line-height: 24px;
+  font-size: 18px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 14px;
+}
+.why-1-content{
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
 }
