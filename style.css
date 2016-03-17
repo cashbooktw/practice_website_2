@@ -203,7 +203,7 @@ header .menu .menu-text{
   font-size: 14px;
   line-height: 24px;
 }
-.why-123{
+.why-flexbox{
   display: flex;
   flex-direction: row;
   /*justify-content: center;*/
@@ -214,25 +214,25 @@ header .menu .menu-text{
   height: 140px;/*360*/
   margin: 0 auto;
 }
-.why-123 > div{
+.why-flexbox > div{
   width: 380px;
   height: 63px;
   text-align: center;
 }
-.why-1{
+.why-box{
   position: relative;
 }
-.why-1 img{
+.why-box img{
   width: 63px;
 }
-.why-1-title{
+.why-box-title{
   line-height: 24px;
   font-size: 18px;
   color: white;
   font-family: "Montserrat", sans-serif;
   margin-top: 14px;
 }
-.why-1-content{
+.why-box-content{
   line-height: 24px;
   font-size: 14px;
   font-family: "Open sans", sans-serif;
