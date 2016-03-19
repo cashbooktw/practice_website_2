@@ -23,6 +23,10 @@ body{
   font-family: "Open sans", sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 header{
   padding: 30px 104.5px;
   margin: 0 auto;
@@ -334,4 +338,51 @@ header .menu .menu-text{
   width: 140px;
   position: relative;
   margin-top: 20px;
+}
+
+.footer{
+  height: 55px;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
+.footer-wrapper{
+  width:1140px;
+  height: inherit;
+  margin: 0 auto;
+  position: relative;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+.footer-wrapper a{
+  float: left;
+  display: inline-block;
+}
+.footer-wrapper nav{
+  display: inline-block;
+  width: 700px;
+  margin: 0;
+  padding-left: 200px;
+  padding-top: 10px;
+}
+.footer-wrapper li{
+  display: inline-block;
+  margin-right: 40px;
+  padding: 5px 0;
+}
+.footer-wrapper li > a{
+  color: rgb(102, 102, 103);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.social{
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+.social a {
+  display: inline-block;
+  padding: 5px;
+
 }
