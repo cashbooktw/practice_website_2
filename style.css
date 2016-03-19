@@ -239,3 +239,99 @@ header .menu .menu-text{
   font-weight: 300;
   margin-top: 10px;
 }
+
+.contact-wrapper{
+  width: 1140px;
+  height: 315px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.subscribe{
+  width: 760px;
+  height: 222px;
+  float: left;
+  margin: 0;
+  position: relative;
+  color: white;
+  padding: 0 15px;
+}
+.contact{
+  width: 350px;
+  height: 315px;
+  background-color: rgb(17, 18 ,19);
+  float: right;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+}
+.subscribe-title{
+  width: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+.split-line-div{
+  position: relative;
+  height: 20px;
+}
+.split-line2{
+  border: none;
+  width: 70px;
+  height: 1px;
+  background-color: rgb(63, 80, 165);
+  margin-top: 20px;
+}
+.subscribe-content{
+  font-family: "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+.who-plus{
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(63, 80, 165);
+  position: absolute;
+  left: -25px;
+  top: -5px;
+}
+.email{
+  border-bottom: 2px solid rgb(102, 102, 103);
+  padding: 5px 0px;
+  width: 500px;
+  height: 39px;
+  margin-top: 15px;
+  float: left;
+}
+.email-icon{
+  float: left;
+  height: 24px;
+}
+.email input{
+  border: none;
+  background-color: inherit;
+  height: 24px;
+  width: 450px;
+  margin-left: 26px;
+  color: white;
+}
+.subscribe button{
+  font-size: 14px;
+  width: 140px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.contact > div{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 54px;
+}
+.contact button{
+  font-size: 14px;
+  width: 140px;
+  position: relative;
+  margin-top: 20px;
+}
