@@ -38,7 +38,10 @@ header img{
 header .menu{
   float: right;
 }
-header .menu .hamburger{
+/*header .menu .hamburger{
+  float: right;
+}*/
+header .drop-menu{
   float: right;
 }
 header .menu .menu-text{
@@ -380,7 +383,6 @@ header .menu .menu-text{
   position: absolute;
   right: 0px;
 }
-
 .social a {
   display: inline-block;
   padding: 5px;

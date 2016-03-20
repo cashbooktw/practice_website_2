@@ -11,6 +11,10 @@
 
     <link rel="stylesheet" href="./style.css"/>
 
+    <script src="./Dropit-1.1.1/dropit.js"></script>
+    <link rel="stylesheet" href="./Dropit-1.1.1/dropit.css" />
+    <link rel="stylesheet" href="./Dropit-1.1.1/sample.css" />
+
     <script>
       $(document).ready(function(){
         $("button").button();
@@ -21,6 +25,7 @@
           "nexttext": "&#8594",
           "prevtext": "&#8592"
         });
+        $(".drop-menu").dropit();
       });
     </script>
     <!-- <script>
@@ -37,12 +42,37 @@
     <!-- header -->
     <header class="cf">
       <a href="#"><img src="./img/logo.png" alt="logo"></a>
-      <div class="menu">
-        <div class="menu-text">
+      <!-- <div class="menu"> -->
+        <!-- <div class="menu-text">
           MENU
-        </div>
-        <div class="hamburger">&#9776;</div>
-      </div>
+        </div> -->
+        <ul class="drop-menu">
+            <li>
+                <a href="#"><div class="hamburger">MENU&#9776;</div></a>
+                <ul class="dropit-submenu">
+                  <li><a href="#">Home</a></li>
+      						<li><a href="#">About</a></li>
+      						<li><a href="#">Services</a></li>
+      						<li><a href="#">Portfolio</a>
+      						<li><a href="#">Blog</a>
+      						<li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- <div class="hamburger">&#9776;</div> -->
+      <!-- </div> -->
+
+      <!-- <ul class="drop-menu">
+          <li>
+              <a href="#"><div class="hamburger">&#9776;</div></a>
+              <ul class="dropit-submenu">
+                  <li><a href="#">Some Action 1</a></li>
+                  <li><a href="#">Some Action 2</a></li>
+                  <li><a href="#">Some Action 3</a></li>
+                  <li><a href="#">Some Action 4</a></li>
+              </ul>
+          </li>
+      </ul> -->
     </header>
 
     <!-- slider -->
@@ -236,7 +266,17 @@
         </div>
       </div>
     </footer>
-
+    <!-- <ul class="drop-menu">
+        <li>
+            <a href="#">Dropdown</a>
+            <ul class="dropit-submenu">
+                <li><a href="#">Some Action 1</a></li>
+                <li><a href="#">Some Action 2</a></li>
+                <li><a href="#">Some Action 3</a></li>
+                <li><a href="#">Some Action 4</a></li>
+            </ul>
+        </li>
+    </ul> -->
     <!-- livereload -->
     <script>
       document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
